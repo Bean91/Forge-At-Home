@@ -23,7 +23,8 @@ If you're interested in helping shape it, ideas and contributions are welcome (s
 | Module         | Status      | Notes                          |
 |----------------|-------------|--------------------------------|
 | `orchestrator` | 🛠 not started | Assigns training tasks across nodes |
-| `tokenizer`    | 🔜 next up    | Custom BPE-style tokenizer system |
+| `tokenizer`    | ✅ completed    | Custom BPE-style tokenizer system |
+| `embedding`    | 🔜 next up    | Custom vector embedding model |
 | `trainer`      | 🛠 not started | Core training loop, loss sync, checkpointing |
 | `validator`    | 🛠 not started | Verifies gradient integrity |
 | `monitor`      | 🛠 not started | Light dashboard for nodes + training status |
@@ -45,7 +46,7 @@ If you're interested in helping shape it, ideas and contributions are welcome (s
 
 This project is at square one. If you’d like to help design, brainstorm, or prototype:
 - Fork the repo  
-- Open an issue  
+- Open an issue (to contact us) 
 - Suggest architecture, tooling, or model ideas  
 - Bring snacks
 
